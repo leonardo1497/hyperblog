@@ -1,18 +1,27 @@
-body {
-    color: palevioletred;
+body
+{
+    color: #333;
     text-align: center;
     font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid aqua;
-    padding: 10px;
+#container
+{
+    width: 70%;
+    padding: 0;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
 }
 
-.box{
-    background-color: aqua;
-    width: 200px;
-    height: 200px;
+#container h1
+{
+    font-size: 20px;
+}
+#post
+{
+    padding: 1em;
 }
