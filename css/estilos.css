@@ -3,3 +3,16 @@ body {
     text-align: center;
     font-family: Arial;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid aqua;
+    padding: 10px;
+}
+
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
